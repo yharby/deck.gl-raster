@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.4.0](https://github.com/developmentseed/deck.gl-raster/compare/v0.3.0...v0.4.0) (2026-03-18)
+
+
+### Features
+
+* expose maxRequests on COGLayer ([#333](https://github.com/developmentseed/deck.gl-raster/issues/333)) ([535034b](https://github.com/developmentseed/deck.gl-raster/commit/535034bf469deaa7b08f51ea7463b397f321ae3d))
+
+
+### Bug Fixes
+
+* Bump proj4 to fix web mercator projection ([#346](https://github.com/developmentseed/deck.gl-raster/issues/346)) ([bbb514d](https://github.com/developmentseed/deck.gl-raster/commit/bbb514d19bcd36f87298614ad5f26d674de8cfc6))
+* Clamp to Web Mercator latitude bounds ([#182](https://github.com/developmentseed/deck.gl-raster/issues/182)) ([3f40291](https://github.com/developmentseed/deck.gl-raster/commit/3f402912953019c46896bdb6457fe2da357c3812))
+* fix setting default values for inherited props from TileLayer ([#347](https://github.com/developmentseed/deck.gl-raster/issues/347)) ([0507637](https://github.com/developmentseed/deck.gl-raster/commit/0507637c90f4e66553df9813d77827920ccb2aae))
+* Render mesh from Web Mercator coordinates ([#349](https://github.com/developmentseed/deck.gl-raster/issues/349)) ([6adddc4](https://github.com/developmentseed/deck.gl-raster/commit/6adddc4f43c55c5bacb8a2330bbbf4554a44d716))
+
 ## v0.3.0 - 2026-03-18
 
 ### What's Changed
